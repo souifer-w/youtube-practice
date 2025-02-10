@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.icon-menu{
+  height: 25px;
+}
+.icon-logo-youtube{
+  height: 25px;
+}
+.icon-right{
+  height: 25px;
+}
+.profile{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.container-headre{
+  z-index: 1;
+  background-color: white;
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  padding-left: 24px;
+  padding-right: 18px;
+  border-bottom-width:1px;
+  border-color: rgba(0, 0, 0, 0.176);
+  border-style: solid;
+  height: 70px;
+  align-items: center;
+  justify-content:space-between;
+}
+.header-left{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-shrink: 0;
+}
+.header-right{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+.header-center{
+  display: flex;
+  align-items: center;
+  width: 400px;
+ padding-left: 58px;
+ padding-right: 40px;
+}
+.search{
+  width: 0;
+  flex: 1;
+   border: 1px solid rgba(0, 0, 0, 0.358);
+border-radius: 3px;
+  background-color: whitesmoke;
+  height: 37px;
+  padding-left: 8px;
+  font-size: 16px;
+}
+.icon-search{
+  height: 38.1px;
+  border: 1px solid rgba(0, 0, 0, 0.358);
+border-radius: 3px;
+  width: 57px;
+  margin-top: 2px;
+  margin-left: -3px;
+ 
+}
+.icon-search img{
+  height: 30px;
+  padding-top: 5px;
+  
+}
+.icon-voice-search{
+ height: 35;
+ width: 35px;
+ margin-left: 15px;
+ border-radius: 50%;
+ border: none;
+ background-color: rgba(245, 245, 245, 0.931);
+}
+.icon-voice-search img{
+ padding: 5px;
+}
+.p-hover-sh{
+
+  border-radius: 3px;
+  position:absolute;
+   top: 60px;
+  color: white;
+  padding: 4px;
+  transition: all 0.3s linear;
+ pointer-events: none;
+  opacity: 0;
+font-size: 12px;
+
+  font-family: Arial;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.p-hover-icon-1{
+position: absolute;
+ color: white;
+  padding: 4px;
+  transition: all 0.3s linear;
+ pointer-events: none;
+  opacity: 0;
+font-size: 12px;
+ border-radius: 3px;
+  font-family: Arial;
+  background-color: rgba(0, 0, 0, 0.5);
+top: 50px;
+left: -5px;
+}
+.p-hover-icon-3{
+  position: absolute;
+  color: white;
+  padding: 4px;
+  transition: all 0.3s linear;
+ pointer-events: none;
+  opacity: 0;
+font-size: 12px;
+ border-radius: 3px;
+  font-family: Arial;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 50px;
+  left: -20px;
+}
+.p-hover-icon-2{
+  position: absolute;
+  width: 100px;
+  padding: 4px;
+  transition: all 0.3s linear;
+ pointer-events: none;
+  opacity: 0;
+  border-radius: 3px;
+font-size: 12px;
+ border-radius: 3px;
+  font-family: Arial;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: -20px;
+  top: 50px;
+  color: white;
+
+}
+.p-voice-hover{
+   transition: all 0.3s linear;
+ pointer-events: none;
+  color: white;
+  bottom: -39px;
+   opacity: 0;
+   left: -27px;
+font-size: 12px;
+  padding: 4px;
+  width: 150px;
+  border-radius: 3px;
+  font-family: Arial;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+.voice-hover,.hover-search,.hover-icon{
+ position: relative;
+}
+.hover-search:hover .p-hover-sh{
+opacity: 1;
+
+}
+.voice-hover:hover .p-voice-hover{
+  opacity: 1;
+}
+.hover-icon:hover .p-hover-icon-3{
+  opacity: 1;
+}
+.hover-icon:hover .p-hover-icon-2{
+  opacity: 1;
+}
+.hover-icon:hover .p-hover-icon-1{
+  opacity: 1;
+}
+
+
+

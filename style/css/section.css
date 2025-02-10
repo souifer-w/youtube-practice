@@ -1,0 +1,78 @@
+body{
+    padding-top: 72px;
+    padding-left: 60px;
+}
+.container-section{
+ padding-top: 30px;
+ padding-bottom: 30px;
+    z-index: 0;
+    cursor: pointer;
+    background-color: rgba(223, 222, 222, 0.173);
+height: auto;
+  column-gap: 14px;
+  row-gap: 20px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 32px;
+}
+.thumbnail{
+     width: 100%;
+}
+@media (max-width: 740px) {
+ .container-section{
+    grid-template-columns:  1fr ;
+ }
+}
+@media (min-width:751px){
+    .container-section{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+@media (min-width:751px) and (max-width:999px){
+    .container-section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.con-time{
+    
+    position: relative;
+}
+.p-time{
+    position: absolute;
+    bottom: 9px;
+    
+    right: 4px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 3px;
+    color: white;
+
+    background-color: black;
+}
+.infromations{
+    padding-left: 7px;
+    display: flex;
+    gap: 12px;
+    padding-top: 12px;
+}
+.channel{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.p-in-p{
+    padding-bottom: 10px;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.p-name-views{
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgba(77, 77, 77, 0.863);
+}
